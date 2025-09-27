@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guide d'étude — Canada (depuis 1982)</title>
+  <style>
+    :root{--bg:#f6f8fb;--card:#ffffff;--muted:#6b7280;--accent:#0f62fe;--accent-2:#0b6b3a}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg);color:#0f172a}
+    .wrap{max-width:980px;margin:28px auto;padding:20px}
+    header{display:flex;gap:16px;align-items:center}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{margin:4px 0 18px;color:var(--muted)}
+    .controls{display:flex;gap:8px;margin:16px 0}
+    input[type=search]{flex:1;padding:10px;border-radius:10px;border:1px solid #e6e9ef;background:#fff}
+    button{background:var(--accent);color:#fff;padding:8px 12px;border-radius:9px;border:0;cursor:pointer}
+    main{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    .card{background:var(--card);border-radius:12px;padding:16px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    .section{margin-bottom:12px}
+    h2{margin:0 0 8px;font-size:1.05rem}
+    ul.simple{padding-left:18px;margin:8px 0;color:#0f172a}
+    .muted{color:var(--muted);font-size:0.95rem}
+    details{margin:8px 0}
+    summary{font-weight:600;cursor:pointer}
+    .tag{display:inline-block;padding:6px 8px;border-radius:999px;background:#eef4ff;color:var(--accent);font-weight:600;margin-right:6px;font-size:0.8rem}
+    .glossary dt{font-weight:700;margin-top:10px}
+    .glossary dd{margin:0 0 8px 0}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:0.9rem}
+    @media (max-width:880px){main{grid-template-columns:1fr} .controls{flex-direction:column} .wrap{padding:12px}}
+    /* Print */
+    @media print{body{background:#fff} .controls, header, footer{display:none} main{grid-template-columns:1fr} .card{box-shadow:none}}
+    /* Timeline minimal et responsive */
+  #mini-timeline{max-width:720px;margin:18px auto;font-family:Inter,system-ui,Arial;color:#0f172a}
+  #mini-timeline .tl{position:relative;padding-left:28px;border-left:2px solid #e2e8f0}
+  #mini-timeline .item{position:relative;margin:16px 0;padding:6px 12px;background:transparent}
+  #mini-timeline .item::before{
+    content:'';position:absolute;left:-13px;top:8px;width:12px;height:12px;border-radius:50%;
+    background:#0f62fe;border:3px solid #fff;box-shadow:0 0 0 3px rgba(15,98,254,0.08)
+  }
+  #mini-timeline .year{font-weight:700;margin-bottom:4px}
+  #mini-timeline .desc{margin:0;color:#374151}
+  /* small screens */
+  @media (max-width:520px){
+    #mini-timeline{padding:0 12px}
+    #mini-timeline .item{margin:12px 0}
+  }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Guide d'étude simplifié — Canada (depuis 1982)</h1>
+        <p class="lead">Résumé clair et efficace des idées clés : éléments de la ligne du temps, sources, tendances, mondialisation, crise d'Oka, vocabulaire.</p>
+      </div>
+      <div style="margin-left:auto; text-align:right">
+        <div class="tag">Facile</div>
+        <div class="muted">Prêt à imprimer • Lecture rapide</div>
+      </div>
+    </header>
+
+    <div class="controls">
+      <input id="search" type="search" placeholder="Rechercher un mot-clé (ex : Oka, mondialisation, Charter)" />
+      <button id="printBtn">Imprimer / PDF</button>
+    </div>
+
+    <main>
+      <div>
+        <section class="card section" id="timeline">
+          <h2>Éléments d'une ligne du temps</h2>
+          <p class="muted">Ce qu'on doit noter pour chaque événement — simple et rapide.</p>
+          <ul class="simple">
+            <li><strong>Date</strong> (jour/mois/année si possible)</li>
+            <li><strong>Nom</strong> (titre court de l'événement)</li>
+            <li><strong>Description</strong> (2–3 phrases : quoi, qui, pourquoi)</li>
+            <li><strong>Sujet</strong> (catégorie : politique, social, économique)</li>
+            <li><strong>Image (facultative)</strong> — utile pour mémoriser</li>
+            <li><strong>Points et intervalles</strong> — montrer relations et durée</li>
+          </ul>
+          <div id="mini-timeline" aria-label="Ligne du temps — événements politiques">
+  <div class="tl" role="list">
+    <div class="item" role="listitem">
+      <div class="year">1980</div>
+      <p class="desc">Défaite du référendum sur la souveraineté-association au Québec.</p>
+    </div>
+
+    <div class="item" role="listitem">
+      <div class="year">1981</div>
+      <p class="desc">Négociation constitutionnelle et la « Nuit des longs couteaux » (controverse politique).</p>
+    </div>
+
+    <div class="item" role="listitem">
+      <div class="year">1982</div>
+      <p class="desc">Rapatriement de la Constitution (incluant la Charte canadienne des droits et libertés).</p>
+    </div>
+
+    <div class="item" role="listitem">
+      <div class="year">1984</div>
+      <p class="desc">Élection de Brian Mulroney et mise en œuvre du « Beau risque » (politique extérieure).</p>
+    </div>
+
+    <div class="item" role="listitem">
+      <div class="year">1987</div>
+      <p class="desc">Accord du Lac Meech (tentative d'amender la Constitution pour reconnaître le Québec).</p>
+    </div>
+
+    <div class="item" role="listitem">
+      <div class="year">1990</div>
+      <p class="desc">Rejet de l'Accord du Lac Meech par certaines provinces et groupes.</p>
+    </div>
+
+    <div class="item" role="listitem">
+      <div class="year">1992</div>
+      <p class="desc">Rejet de l'Accord de Charlottetown (proposition constitutionnelle élargie).</p>
+    </div>
+
+    <div class="item" role="listitem">
+      <div class="year">1994</div>
+      <p class="desc">Élection du Parti Québécois au Québec (soulève des enjeux de souveraineté).</p>
+    </div>
+
+    <div class="item" role="listitem">
+      <div class="year">1995</div>
+      <p class="desc">Défaite du deuxième référendum sur l'indépendance du Québec (résultat serré).</p>
+    </div>
+
+    <div class="item" role="listitem">
+      <div class="year">2006</div>
+      <p class="desc">Reconnaissance de la Nation québécoise à la Chambre des communes du Canada.</p>
+    </div>
+  </div>
+</div>
+          <details>
+            <summary>Astuce</summary>
+            <p class="muted">Pour étudier : crée ta propre ligne du temps avec 8–10 événements clés depuis 1982. Garde une couleur par thème (politique, société, économie).</p>
+          </details>
+        </section>
+
+        <section class="card section" id="sources">
+          <h2>Sources : primaire vs secondaire</h2>
+          <p class="muted">Savoir différencier aide à évaluer la fiabilité.</p>
+          <ul class="simple">
+            <li><strong>Source primaire</strong> : produite pendant l'événement ou immédiatement après (ex. témoignage, discours, constitution, lettres, photos).</li>
+            <li><strong>Source secondaire</strong> : analyse ou résumé fait après (ex. manuel scolaire, articles, synthèses).</li>
+          </ul>
+          <p class="muted"><strong>Pourquoi c'est important ?</strong> Pour connaître l'origine de l'information et éviter les interprétations biaisées.</p>
+        </section>
+
+        <section class="card section" id="canus">
+          <h2>Canada vs États‑Unis (points clés)</h2>
+          <ul class="simple">
+            <li><strong>Système politique</strong> : Canada — Premier ministre; États‑Unis — Président.</li>
+            <li><strong>Monarchie</strong> : Canada fait partie du Commonwealth; États‑Unis non.</li>
+            <li><strong>Santé</strong> : Canada — soins publics (assurance maladie publique); États‑Unis — système majoritairement privé.</li>
+            <li><strong>Culture</strong> : Hockey = symbole canadien; diversité multiculturelle plus promue officiellement au Canada.</li>
+          </ul>
+          <details>
+            <summary>Exemple de question de cours</summary>
+            <p class="muted">Explique en 3 phrases comment la santé publique influence la vie quotidienne au Canada vs aux États‑Unis.</p>
+          </details>
+        </section>
+
+        <section class="card section" id="tendances">
+          <h2>Tendances depuis 1982 (résumé)</h2>
+          <p class="muted">Les neuf tendances essentielles — phrases courtes pour retenir.</p>
+          <ol class="simple">
+            <li><strong>Démographie</strong> : population vieillit; baisse du taux de natalité; croissance due surtout à l'immigration.</li>
+            <li><strong>Immigration</strong> : diversification — plus d'immigrants d'Asie, Afrique, Moyen‑Orient.</li>
+            <li><strong>Monde du travail</strong> : passage à l'économie de services, plus de tech et santé; emplois précaires augmentent.</li>
+            <li><strong>Éducation</strong> : plus d'accès aux études supérieures; défis d'intégration des diplômes étrangers.</li>
+            <li><strong>Politique</strong> : 1982 — Charte des droits; référendums au Québec; plus d'attention aux droits humains et environnement.</li>
+            <li><strong>Égalité</strong> : progrès pour les femmes (plus de participation) mais inégalités salariales persistent.</li>
+            <li><strong>Diversité</strong> : multiculturalisme central à l'identité canadienne.</li>
+            <li><strong>Langues</strong> : protection du français et anglais, défis hors‑Québec pour le français.</li>
+            <li><strong>Autochtones</strong> : révélations sur les pensionnats, Commission vérité et réconciliation, revendications pour l'autonomie.</li>
+          </ol>
+        </section>
+
+        <section class="card section" id="mondialisation">
+          <h2>Mondialisation (essentiel)</h2>
+          <ul class="simple">
+            <li><strong>Aspect important :</strong> échanges commerciaux, tarifs, chaînes d'approvisionnement mondiales.</li>
+            <li><strong>Effet positif :</strong> accès à des produits moins chers et plus variés.</li>
+            <li><strong>Effet négatif :</strong> dépendance aux marchés étrangers et sensibilité aux tarifs commerciaux.</li>
+            <li><strong>Exemple concret :</strong> téléphones, pièces importées; énergie et ressources exportées.</li>
+          </ul>
+        </section>
+
+        <section class="card section" id="oka">
+          <h2>Crise d'Oka (1990) — résumé simple</h2>
+          <ul class="simple">
+            <li><strong>Problème principal :</strong> projet d'agrandissement d'un terrain de golf sur des terres revendiquées par les Mohawks.</li>
+            <li><strong>Groupes impliqués :</strong> communautés autochtones (Mohawks), municipalité, police et armée nationale (crise nationale).</li>
+            <li><strong>Importance :</strong> met en lumière les conflits de terres, les promesses non tenues et catalyse la reconnaissance des droits autochtones.</li>
+          </ul>
+        </section>
+
+        <section class="card section" id="interventions">
+          <h2>Interventions internationales du Canada</h2>
+          <p class="muted">Rôle : contributions aux missions de paix, aide humanitaire, alliances (OTAN, ONU).</p>
+          <details>
+            <summary>Exemple simple</summary>
+            <p class="muted">Le Canada participe souvent à des missions de maintien de la paix ou à des coalitions internationales (ex. opérations de l'ONU ou de l'OTAN).</p>
+          </details>
+        </section>
+
+        <section class="card section" id="sources-pratiques">
+          <h2>Comment utiliser le manuel ou Internet pour étudier</h2>
+          <ol class="simple">
+            <li>Repère les dates et relie-les sur une mini‑ligne du temps (8 à 10 événements).</li>
+            <li>Classe les sources en primaire/secondaire.</li>
+            <li>Fais des fiches : terme = définition courte + 1 exemple.</li>
+            <li>Relis les images étudiées : qui, quand, pourquoi — et si c'est primaire/secondaire.</li>
+          </ol>
+        </section>
+
+      </div>
+
+      <aside>
+        <div class="card section">
+          <h2>Vocabulaire clé (définitions courtes)</h2>
+          <dl class="glossary muted">
+            <dt>Pays</dt><dd>Territoire gouverné par un gouvernement.</dd>
+            <dt>Nation</dt><dd>Un groupe humain avec une identité commune (parfois à travers plusieurs États).</dd>
+            <dt>Référendum</dt><dd>Vote direct de la population sur une question importante.</dd>
+            <dt>Autodétermination</dt><dd>Droit d'un peuple à choisir son avenir politique.</dd>
+            <dt>Constitution</dt><dd>Texte fondamental qui fixe l'organisation et les règles d'un État.</dd>
+            <dt>Droits ancestraux</dt><dd>Droits traditionnels des peuples autochtones sur terres et ressources.</dd>
+            <dt>Rapatriement</dt><dd>Retour d'une loi ou d'un pouvoir dans le pays (ex. rapatriement de la constitution en 1982).</dd>
+            <dt>Réserves</dt><dd>Territoires réservés pour les peuples autochtones.</dd>
+            <dt>Société distincte</dt><dd>Notion souvent utilisée pour décrire le caractère unique du Québec (langue, culture).</dd>
+            <dt>Souveraineté</dt><dd>Pouvoir suprême d'un État de gouverner.</dd>
+            <dt>Mondialisation</dt><dd>Processus d'augmentation des échanges et des connexions mondiales.</dd>
+            <dt>Libre‑échange</dt><dd>Commerce sans barrières tarifaires importantes.</dd>
+            <dt>Tarifs</dt><dd>Taxes imposées sur les importations.</dd>
+            <dt>OTAN</dt><dd>Alliance militaire entre pays (sécurité collective).</dd>
+            <dt>ONU</dt><dd>Organisation mondiale qui vise la paix et la coopération internationale.</dd>
+          </dl>
+        </div>
+
+        <div class="card section">
+          <h2>Résumé rapide — 1 page</h2>
+          <p class="muted">Le Canada depuis 1982 : société plus diversifiée et vieillissante, importance croissante de l'immigration, progrès en droits (Charte), enjeux autochtones et efforts de réconciliation, économie tournée vers les services et la technologie, influence de la mondialisation sur prix et emplois, rôle actif sur la scène internationale via l'ONU/OTAN.</p>
+        </div>
+
+        <div class="card section" id="study-tips">
+          <h2>Conseils d'étude rapides</h2>
+          <ul class="simple">
+            <li>Fais une mini‑ligne du temps (8 événements).</li>
+            <li>Crée 12 fiches vocabulaire (terme + phrase d'exemple).</li>
+            <li>Relie un exemple réel (ex. crise d'Oka) à un concept (droits ancestraux).</li>
+            <li>Explique à voix haute en 2 minutes un thème (ex. mondialisation).</li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="muted">Besoin d'une version imprimable ou d'ajouts (plus d'images, quiz, ou fiches) ? Dis‑moi ce que tu veux améliorer.</div>
+    </footer>
+  </div>
+
+  <script>
+    const search = document.getElementById('search');
+    const printBtn = document.getElementById('printBtn');
+    const sections = Array.from(document.querySelectorAll('.card'));
+    search.addEventListener('input', (e)=>{
+      const q = e.target.value.trim().toLowerCase();
+      if(!q){ sections.forEach(s=>s.style.display=''); return }
+      sections.forEach(s=>{
+        const text = s.innerText.toLowerCase();
+        s.style.display = text.includes(q) ? '' : 'none';
+      })
+    })
+    printBtn.addEventListener('click', ()=>window.print());
+  </script>
+</body>
+</html>
